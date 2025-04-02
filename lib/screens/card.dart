@@ -70,7 +70,7 @@ class Cards extends StatelessWidget {
                                                   listen: false);
                                           bkpr.addToCard(book);
                                         },
-                                        child: Text("Remove from wallet")),
+                                        child: const Text("Remove from wallet")),
                                   )
                                 ],
                               ),

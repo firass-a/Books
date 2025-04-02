@@ -6,7 +6,7 @@ import 'package:provider/provider.dart';
 import 'package:readmore/readmore.dart';
 
 class Details extends StatefulWidget {
-  const Details(this.bk);
+  const Details(this.bk, {super.key});
   final Books bk;
   @override
   State<Details> createState() => _DetailsState();
